@@ -1,1 +1,114 @@
-Hello World!
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="description" content="Intro to HTML & CSS - Links">
+  <meta charset="utf-8">
+  <meta name="viewport" content="user-scalable=0, initial-scale=1, minimum-scale=1, maximum-scale=1, width=device-width, minimal-ui=1">
+  <title>Intro to HTML & CSS - Links</title>
+</head>
+
+<body>
+<!--YOUR CODE STARTS HERE-->
+
+<h1>Web development</h1>
+<h2>HTML</h2>
+
+<p>I want to learn coding</p>
+
+<!--Add an image-->
+<!--<img src="https://jsbin-user-assets.s3.amazonaws.com/fariazz/background.png"/>-->
+<img src="background.png"></img>
+
+<!--Add an image from the internet-->
+<img src="https://www.google.com/logos/doodles/2020/celebrating-fanny-eaton-6753651837108432-2x.png"/>
+
+<!--Link to external Zenva.com website-->
+<p>Find free resources on 
+  <a href="https://zenva.com/" title="Learn Programming">Zenva</a></p>
+
+<!--Link to another web page-->
+<p>Link to <a href="newpage.html">another page</a></p>
+
+<h1>Todo List</h1>
+
+<!--Create an unordered list-->
+<ul>
+  <!--Create a list item-->
+  <li>Sleep</li>
+  <li>Eat healthy</li>
+  <li>Learn HTML</li>
+</ul>
+
+<h1>How to surf</h1>
+
+<!--Create an ordered list-->
+<ol>
+  <li>Go to the beach</li>
+  <li>Spot a wave</li>
+  <li>Paddle</li>
+</ol>
+
+<h1>Forms</h1>
+<div>
+<!--Create a form-->
+<form>
+  <!--Create input fields-->
+  <div>
+    Name: <input type="text" required />
+  </div>
+  <div>
+    Age: <input type="number" required />
+  </div>
+
+    <!--Create a checkbox input element
+    Checkboxes let a user select ZERO or MORE options of a limited number of choices.-->
+  <div>
+    <input type="checkbox" checked/> is enrolled?
+  </div>
+  
+  <!--Create a resizable text area-->
+  <div>
+    <textarea></textarea>
+  </div>
+
+  <!--Create button-->
+  <div>
+    <input type="submit" value="Save" />
+  </div>
+  
+</form>
+</div>
+<br>
+<div>
+<!--w3schools version of a form
+The <label> Element
+Notice the use of the <label> element in the example above.
+
+The <label> tag defines a label for many form elements.
+
+The <label> element is useful for screen-reader users, because the screen-reader will read out loud the label when the user focus on the input element.
+
+The <label> element also help users who have difficulty clicking on very small regions (such as radio buttons or checkboxes) - because when the user clicks the text within the <label> element, it toggles the radio button/checkbox.
+
+The for attribute of the <label> tag should be equal to the id attribute of the <input> element to bind them together.-->
+<form>
+  <!--Create input fields-->
+  <label for="name">Name: </label><br>
+  <input type="text" id="name" name="name" /><br>
+  <label for="age">Age: </label><br>
+  <input type="number" id="age" name="age" /><br>
+  <label for="checkbox"> I have a bike</label><br>
+  <input type="checkbox" id="checkbox" name="checkbox" value="Bike"><br>
+  <!--Create a resizable text area
+  The rows attribute specifies the visible number of lines in a text area.
+
+  The cols attribute specifies the visible width of a text area.-->
+  <textarea name="message" rows="10" cols="30">
+  The cat was playing in the garden.
+  </textarea><br>
+  <!--Create button-->
+  <input type="submit" value="Save" />
+</form>
+</div>
+</body>
+</html>
