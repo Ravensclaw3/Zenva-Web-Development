@@ -9,3 +9,42 @@ p {
   font-size: 15px;
   color: darkred;
 }
+
+/*Sylize an element with a specific ID*/
+#mainPar {
+  color: green;
+}
+
+/*Specify styling for each class*/
+.veg {
+  color: green;
+}
+
+.meat {
+  color: brown;
+}
+
+/*Specify styling for 'box' ID*/
+#box {
+  background-color: yellow;
+  width: 200px;
+  height: 100px;
+  padding: 20px;
+  /*Add a border and stylize*/
+  border: 2px solid black; 
+  /*Modify the margin*/
+  /*margin: 20px;*/
+  margin: 10px auto 10px auto;
+  /*Align text*/
+  text-align: center;
+  vertical-align: middle;
+  line-height: 100px;
+}
+
+/*Specify styling of new 'box2' ID*/
+#box2 {
+  background-color: aqua;
+  margin-left: 20px;
+  padding: 0px 10px 30px 40px;
+  border: 2px dotted black; 
+}
