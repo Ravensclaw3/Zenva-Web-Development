@@ -1,3 +1,8 @@
+/*Modify elements inside the 'body' tag*/
+body {
+  font-size: 20px;
+}
+
 /*Stylize the header*/
 h1 { 
   color:red; 
@@ -6,8 +11,12 @@ h1 {
 
 /*Stylize the paragraphs*/
 p { 
-  font-size: 15px;
+  /*font-size: 15px;*/
   color: darkred;
+  font-size: 2rem;
+  /*font-family: Arial, Courier;*/
+  /*Use the Google font*/
+  font-family: 'Goldman', cursive;
 }
 
 /*Sylize an element with a specific ID*/
@@ -47,4 +56,11 @@ p {
   margin-left: 20px;
   padding: 0px 10px 30px 40px;
   border: 2px dotted black; 
+}
+
+/*Modify the span class style*/
+.keypoint {
+  font-style: italic;
+  font-weigt: bold;
+  text-decoration: underline;
 }
